@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://jobmatch-ai-backend-qot6.onrender.com";
 const AUTO_REFRESH_INTERVAL_MS = 5 * 60 * 1000; // 5 minutes
 
 const ABOUT_DETAILS = {
